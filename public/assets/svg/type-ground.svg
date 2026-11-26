@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <title>Type_Ground</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path id="GroundCrest" d="M8 48 L22 22 L32 34 L42 14 L56 48 Z M16 52 L48 52 L48 56 L16 56 Z" fill="#ea580c"/>
+  </g>
+</svg>

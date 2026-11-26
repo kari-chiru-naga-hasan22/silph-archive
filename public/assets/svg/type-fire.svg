@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <title>Type_Fire</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path id="FireCrest" d="M32 6 C41 18 52 24 50 40 C48 52 40 58 32 58 C24 58 16 52 14 40 C12 27 21 20 25 14 C26 22 30 24 32 6 Z M32 28 C27 34 24 39 26 45 C28 50 36 50 38 45 C40 39 36 33 32 28 Z" fill="#ff4d1a"/>
+  </g>
+</svg>

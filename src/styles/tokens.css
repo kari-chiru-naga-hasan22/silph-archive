@@ -1,0 +1,44 @@
+:root {
+  --bg-obsidian: #090b0e;
+  --bg-slate: #12161c;
+  --bg-slate-elevated: #171d25;
+  --ink-titanium: #e8e6e1;
+  --ink-muted: #8e96a3;
+  --ink-dim: #5d6675;
+  --border-steel: rgba(255, 255, 255, 0.08);
+  --border-steel-strong: rgba(255, 255, 255, 0.16);
+
+  /* Active specimen accents (default: Charizard) */
+  --accent-primary: #ff4d1a;
+  --accent-secondary: #ffb347;
+  --accent-glow: rgba(255, 77, 26, 0.24);
+  --accent-soft: rgba(255, 77, 26, 0.1);
+}
+
+[data-specimen='charizard'] {
+  --accent-primary: #ff4d1a;
+  --accent-secondary: #ffb347;
+  --accent-glow: rgba(255, 77, 26, 0.24);
+  --accent-soft: rgba(255, 77, 26, 0.1);
+}
+
+[data-specimen='pikachu'] {
+  --accent-primary: #f5c400;
+  --accent-secondary: #4deeea;
+  --accent-glow: rgba(245, 196, 0, 0.22);
+  --accent-soft: rgba(245, 196, 0, 0.1);
+}
+
+[data-specimen='greninja'] {
+  --accent-primary: #0ea5e9;
+  --accent-secondary: #bae6fd;
+  --accent-glow: rgba(14, 165, 233, 0.24);
+  --accent-soft: rgba(14, 165, 233, 0.1);
+}
+
+[data-specimen='rayquaza'] {
+  --accent-primary: #10b981;
+  --accent-secondary: #facc15;
+  --accent-glow: rgba(16, 185, 129, 0.24);
+  --accent-soft: rgba(16, 185, 129, 0.1);
+}

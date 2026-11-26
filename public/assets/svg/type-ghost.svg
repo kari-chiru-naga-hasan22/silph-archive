@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <title>Type_Ghost</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path id="GhostCrest" d="M32 8 C46 8 54 19 54 34 L54 54 L44 46 L38 54 L32 46 L26 54 L20 46 L10 54 L10 34 C10 19 18 8 32 8 Z M24 27 L29 31 L22 33 Z M40 27 L42 33 L35 31 Z" fill="#818cf8"/>
+  </g>
+</svg>

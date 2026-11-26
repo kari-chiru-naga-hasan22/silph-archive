@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="128" height="128" viewBox="0 0 128 128">
+  <title>ReticleDoc</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path id="HudReticle" d="M8 28 L8 8 L28 8 M100 8 L120 8 L120 28 M8 100 L8 120 L28 120 M100 120 L120 120 L120 100 M64 20 L64 36 M64 92 L64 108 M20 64 L36 64 M92 64 L108 64 M64 46 C54.059 46 46 54.059 46 64 C46 73.941 54.059 82 64 82 C73.941 82 82 73.941 82 64 C82 54.059 73.941 46 64 46 Z" fill="none" stroke="#e8e6e1" stroke-width="2" stroke-miterlimit="10"/>
+  </g>
+</svg>

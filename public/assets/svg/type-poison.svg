@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="64" height="64" viewBox="0 0 64 64">
+  <title>Type_Poison</title>
+  <g id="Layer_1" data-name="Layer 1">
+    <path id="PoisonCrest" d="M32 10 C45 10 54 19 54 30 C54 39 48 45 42 47 L42 54 L22 54 L22 47 C16 45 10 39 10 30 C10 19 19 10 32 10 Z M24 28 C21.791 28 20 29.791 20 32 C20 34.209 21.791 36 24 36 C26.209 36 28 34.209 28 32 C28 29.791 26.209 28 24 28 Z M40 28 C37.791 28 36 29.791 36 32 C36 34.209 37.791 36 40 36 C42.209 36 44 34.209 44 32 C44 29.791 42.209 28 40 28 Z" fill="#a855f7"/>
+  </g>
+</svg>

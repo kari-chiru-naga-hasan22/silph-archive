@@ -1,0 +1,130 @@
+@import './styles/tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    background-color: var(--bg-obsidian);
+    color: var(--ink-titanium);
+    font-family: 'Plus Jakarta Sans', system-ui, sans-serif;
+    scroll-behavior: auto;
+  }
+
+  body {
+    margin: 0;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: var(--bg-obsidian);
+    color: var(--ink-titanium);
+  }
+}
+
+.tabular-nums {
+  font-variant-numeric: tabular-nums;
+}
+
+.hardware-panel {
+  background: rgba(18, 22, 28, 0.88);
+  border: 1px solid var(--border-steel);
+  border-radius: 4px;
+  backdrop-filter: blur(10px);
+}
+
+.hardware-panel-solid {
+  background: #12161c;
+  border: 1px solid var(--border-steel);
+  border-radius: 4px;
+}
+
+.hardware-hairline {
+  border-color: var(--border-steel);
+}
+
+.accent-transition {
+  transition: color 360ms ease, border-color 360ms ease, background-color 360ms ease, box-shadow 360ms ease;
+}
+
+/* Precision reticle corner ticks */
+.reticle-frame {
+  position: relative;
+}
+
+.reticle-frame::before,
+.reticle-frame::after {
+  content: '';
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  pointer-events: none;
+  border-color: rgba(232, 230, 225, 0.35);
+}
+
+.reticle-frame::before {
+  top: -1px;
+  left: -1px;
+  border-top: 1px solid;
+  border-left: 1px solid;
+}
+
+.reticle-frame::after {
+  bottom: -1px;
+  right: -1px;
+  border-bottom: 1px solid;
+  border-right: 1px solid;
+}
+
+/* Subtle film grain overlay */
+.film-grain {
+  background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 180 180' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.82' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)' opacity='0.045'/%3E%3C/svg%3E");
+}
+
+/* Custom range slider */
+input[type='range'].silph-slider {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 4px;
+  background: rgba(255, 255, 255, 0.12);
+  border-radius: 2px;
+  outline: none;
+}
+
+input[type='range'].silph-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 14px;
+  height: 14px;
+  border-radius: 2px;
+  background: var(--accent-primary);
+  border: 1px solid #e8e6e1;
+  cursor: pointer;
+  box-shadow: 0 0 10px var(--accent-glow);
+}
+
+input[type='range'].silph-slider::-moz-range-thumb {
+  width: 14px;
+  height: 14px;
+  border-radius: 2px;
+  background: var(--accent-primary);
+  border: 1px solid #e8e6e1;
+  cursor: pointer;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #090b0e;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(232, 230, 225, 0.18);
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: var(--accent-primary);
+}
